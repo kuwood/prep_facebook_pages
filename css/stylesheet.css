@@ -1,6 +1,6 @@
-/** div {
+ /**div {
   border: 1px solid black;
-} **/
+}**/
 p, a, h1 {
   font-family: helvetica;
 }
@@ -16,7 +16,7 @@ p, a, h1 {
   color: #EEE;
   font-size: 30px;
   font-weight: bold;
-  padding-left: 24px;
+  padding-left: 48px;
 }
 .inputtitle {
   font-size: 12px;
@@ -42,6 +42,9 @@ p, a, h1 {
   width: 140px;
   height: 14px;
 }
+#checkcontain {
+  height: 24px;
+}
 .subinput {
   display: inline-block;
   font-size: 12px;
@@ -57,7 +60,7 @@ p, a, h1 {
 }
 .checkbox {
   height: 12px;
-  line-height: 18px;
+  line-height: 24px;
   vertical-align: middle;
   margin-right: 0px;
 }
@@ -65,7 +68,7 @@ p, a, h1 {
   display: inline-block;
   float: right;
   line-height: 58px;
-  padding-right: 24px;
+  padding-right: 36px;
   vertical-align: middle;
 }
 .loginbutton button {
@@ -82,4 +85,37 @@ p, a, h1 {
   transition-duration: 0.4s;
   cursor: pointer;
   vertical-align: middle;
+}
+.pitchtitle {
+  padding: 40px 0px 40px 25px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+}
+.pitch{
+  padding-top: 50px;
+  padding-left: 80px;
+}
+.pitchpoint {
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+.pitchpic {
+  display: inline-block;
+}
+.pitchpic img {
+  height: 50px;
+  width: 50px;
+  opacity: .4;
+}
+.pitchtext {
+  display: inline-block;
+  line-height: 50px;
+  padding-left: 20px;
+  color: #333;
+  vertical-align: top;
+}
+.pitchemp {
+  color: #333;
+  font-weight: bold;
 }

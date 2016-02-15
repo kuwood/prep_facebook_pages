@@ -201,8 +201,9 @@ p, a, h1 {
   font-size: 12px;
 }
 .footwrap {
-  width: 980px;
+  width: 936px;
   margin: auto;
+  padding-left: 48px;
 }
 .language {
   padding-top: 15px;

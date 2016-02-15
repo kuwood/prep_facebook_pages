@@ -10,27 +10,29 @@
 <body>
   <div class="wrapper">
     <header class="navbar">
-      <div class="titletext">
-        <h1>Facelook</h1>
-      </div>
-      <div class=loginbutton>
-        <button type="button" name="button">Log In</button>
-      </div>
-      <div class="password">
-        <p class="inputtitle">Password</p>
-        <div id="password">
-          <input class="fieldinput">
+      <div class="navwrapper">
+        <div class="titletext">
+          <h1>Facelook</h1>
         </div>
-        <a class="subinput" href="#">Forgot your password?</a>
-      </div>
-      <div class="username">
-        <p class="inputtitle">Email or phone</p>
-        <div id="username">
-          <input class="fieldinput">
+        <div class=loginbutton>
+          <button type="button" name="button">Log In</button>
         </div>
-        <div id="checkcontain">
-          <input type="checkbox" class="checkbox"></input>
-          <p class="subinput" id="struggleInput">Keep me logged in</p>
+        <div class="password">
+          <p class="inputtitle">Password</p>
+          <div id="password">
+            <input class="fieldinput">
+          </div>
+          <a class="subinput" href="#">Forgot your password?</a>
+        </div>
+        <div class="username">
+          <p class="inputtitle">Email or phone</p>
+          <div id="username">
+            <input class="fieldinput">
+          </div>
+          <div id="checkcontain">
+            <input type="checkbox" class="checkbox"></input>
+            <p class="subinput" id="struggleInput">Keep me logged in</p>
+          </div>
         </div>
       </div>
     </header>
@@ -73,11 +75,60 @@
             </div>
           </div>
         </div>
-          <p>
       </div>
       <div class="signup">
+        <h1>Sign Up</h1>
+        <div class="signupform">
+          <div class="textboxhalf"  id="firstname">
+            <input class="half" placeholder="First Name">
+          </div>
+          <div class="textboxhalf">
+            <input class="half" placeholder="Last Name">
+          </div>
+          <div class="textboxfull">
+            <input class="full" placeholder="Your Email">
+          </div>
+          <div class="textboxfull">
+            <input class="full" placeholder="Your New Password">
+          </div>
+          <div class="textboxfull">
+            <input class="full" placeholder="Confirm Your Password">
+          </div>
+          <div class="bday">
+            <div class="bdaytext">
+              <p>Birthday</p>
+            </div>
+            <div class="bdaydrops">
+              <select>
+                <option value="month">Month</option>
+                <option value="jan">January</option>
+              </select>
+              <select>
+                <option value="day">Day</option>
+                <option value="1">1</option>
+              </select>
+              <select>
+                <option value="year">Year</option>
+                <option value="2016">2016</option>
+              </select>
+            </div>
+          <div class="sexs">
+            <div class="sselection">
+              <input type="radio" name="gender" value="male" checked> Male<br>
+            </div>
+            <div class="sselection">
+              <input type="radio" name="gender" value="female"> Female<br>
+            </div>
+          </div>
+          <div class="signbutton">
+            <button type="button" name="button">Sign Up!</button>
+          </div>
+        </div>
       </div>
+    </div>
     </main>
+    <footer>
+    </footer>
   </div>
 
 </body>

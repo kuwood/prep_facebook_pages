@@ -92,10 +92,12 @@ p, a, h1 {
   cursor: pointer;
   vertical-align: middle;
 }
+.contentwrap {
+  background-color: #eee;
+}
 .content {
   margin: auto;
   width: 980px;
-  border-bottom: 1px solid #333
 }
 .pitchtitle {
   padding: 40px 0px 40px 0px;
@@ -193,4 +195,23 @@ p, a, h1 {
   transition-duration: 0.4s;
   cursor: pointer;
   vertical-align: middle;
+}
+.footbar {
+  color: #0726ab;
+  font-size: 12px;
+}
+.footwrap {
+  width: 980px;
+  margin: auto;
+}
+.language {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #bbb;
+}
+.sitemapwrap {
+padding-top: 10px;
+}
+.sitemap {
+  padding-top: 5px;
 }

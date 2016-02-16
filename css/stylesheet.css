@@ -4,10 +4,23 @@
 p, a, h1 {
   font-family: helvetica;
 }
-.navbar {
+.navbarsignup {
   border-bottom: 1px solid black;
   background-color: #1c54e7;
   height: 66px;
+}
+.navbarloggedin {
+  border-bottom: 1px solid black;
+  background-color: #1c54e7;
+  height: 48px;
+}
+.searchbox {
+  display: inline-block;
+  padding-left: 15px;
+}
+#navsearch {
+  height: 16px;
+  width: 378px;
 }
 .navwrapper {
   width: 980px;
@@ -23,11 +36,43 @@ p, a, h1 {
   font-weight: bold;
   padding-left: 48px;
 }
+#smallnav {
+  line-height: 48px;
+}
 .inputtitle {
   font-size: 12px;
   font-weight: bold;
   padding: 4px 4px 4px 1px;
   color: #EEE;
+}
+.accountoptions {
+  display: inline-block;
+  height: 48px;
+  line-height: 48px;
+  width: 290px;
+  float: right;
+  padding-left: 80px;
+}
+.accountstyle {
+  display: inline-block;;
+  width: 90px;
+  color: #EEE;
+}
+.accountstyle a {
+  padding-left: 5px;
+  font-size: 12px;
+}
+.avatar {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+.accicon {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  padding-left: 5px;
 }
 .username {
   display: inline-block;
@@ -46,6 +91,7 @@ p, a, h1 {
 .fieldinput {
   width: 140px;
   height: 14px;
+  padding-left: 5px;
 }
 #checkcontain {
   height: 24px;
@@ -146,15 +192,16 @@ p, a, h1 {
   color: #222;
   padding-bottom: 26px;
 }
+.half, .full {
+  padding-left: 5px;
+}
 .textboxhalf {
   display: inline-block;
-
   padding-bottom: 18px;
 }
 .textboxhalf input {
   height: 20px;
-  width: 176px;
-
+  width: 171px;
 }
 #firstname {
   padding-right: 18px;
@@ -164,7 +211,7 @@ p, a, h1 {
 }
 .textboxfull input {
   height: 20px;
-  width: 378px;
+  width: 373px;
 }
 .bday p {
   padding-top: 12px;

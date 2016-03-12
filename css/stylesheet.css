@@ -270,3 +270,16 @@ padding-top: 10px;
 .profilepic, .proftimeline, .profabout, .profphotos, .proffriends, .profedit {
   display: inline-block;
 }
+.profilepic img {
+  height: 130px;
+  width: 110px;
+}
+.profilebackground {
+    text-align: center;
+    margin-left: 15px;
+}
+.profilebackground img {
+  height: 400px;
+  width: 900px;
+
+}

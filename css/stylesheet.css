@@ -1,6 +1,6 @@
- /**div {
+ div {
   border: 1px solid black;
-}**/
+}
 p, a, h1 {
   font-family: helvetica;
 }
@@ -262,4 +262,11 @@ padding-top: 10px;
 }
 .sitemap {
   padding-top: 5px;
+}
+.profilenav {
+  height: 64px;
+  display: inline-block;
+}
+.profilepic, .proftimeline, .profabout, .profphotos, .proffriends, .profedit {
+  display: inline-block;
 }
